@@ -19,14 +19,13 @@
 }
 
 .a {
-  background-color: rgb(105, 93, 93);
-  /* background-color: rgb(173, 173, 173); */
+  /* background-color: rgb(105, 93, 93); */
   grid-area: profile;
 }
 
 .b {
   /* background-image: radial-gradient(fra rgb(255, 0, 0), rgb(255, 0, 144)); */
-  background-color: red;
+  /* background-color: red; */
   grid-area: pict;
   position: relative;
 }
@@ -129,12 +128,16 @@
 @media screen and (max-width: 576px) {
   .container {
     grid-template-columns: 40% 60%;
-    grid-template-rows: 37vh 60vh 140px auto;
+    grid-template-rows: 30vh 70vh 140px auto;
     grid-template-areas:
       "profile profile profile"
       "pict pict pict"
       "project project project"
       "main main main";
+  }
+
+  .b img:first-child {
+    width: 400px;
   }
 
   .b img:nth-child(2) {
