@@ -129,7 +129,7 @@
 @media screen and (max-width: 576px) {
   .container {
     grid-template-columns: 40% 60%;
-    grid-template-rows: 30vh 70vh 140px;
+    grid-template-rows: 30vh 78vh 140px;
     grid-template-areas:
       "profile profile profile"
       "pict pict pict"
