@@ -6,12 +6,12 @@
 
 .container {
   width: 100vw;
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  /* background-color: rgb(255, 0, 0); */
   height: 1500px;
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-template-rows: 100vh 140px;
+  grid-template-rows: 715px 140px;
   grid-template-areas:
     "profile pict pict"
     "project project project"
@@ -38,7 +38,7 @@
 }
 
 .d {
-  background-color: rebeccapurple;
+  background-color: rgba(0, 0, 0, 0.655);
   grid-area: main;
   z-index: 5;
 }
@@ -77,7 +77,8 @@
 .b img:first-child {
   z-index: 3;
   position: absolute;
-  bottom: -10px;
+  bottom: 0;
+  margin-bottom: -8px;
 }
 
 .b img:nth-child(2) {
@@ -140,10 +141,6 @@
     width: 50px;
     margin-left: 410px;
     bottom: 20px;
-  }
-
-  .b img:first-child {
-    top: -7px;
   }
 
   .a .data-diri p:last-child {
