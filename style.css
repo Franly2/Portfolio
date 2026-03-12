@@ -58,21 +58,18 @@ body {
 }
 
 .x div {
-  /* background-color: hotpink; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .x div:nth-child(even) {
-  /* background-color: blueviolet; */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 .g1 span {
-  /* background-color: pink; */
   display: flex;
   flex-direction: column;
 }
@@ -96,17 +93,9 @@ body {
   padding-top: 7%;
   display: flex;
   justify-content: flex-start;
-  /* background: burlywood; */
 }
 
-.g1 .cont :nth-child(2) {
-  background-color: #eab7b7;
-}
 
-.g1 .cont :nth-child(3) {
-  background-color: rgb(70, 18, 18);
-  color: white;
-}
 
 .padding {
   padding: 14px 20px 0px 20px;

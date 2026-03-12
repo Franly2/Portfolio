@@ -1,6 +1,5 @@
 .g2 {
   grid-area: photo;
-  /* background-color: red; */
   position: relative;
 }
 
@@ -12,7 +11,6 @@
 
 .g3 {
   width: 100%;
-  /* background-color: red; */
   grid-area: port;
   font-size: 50px;
   padding-top: 70px;
